@@ -1,10 +1,10 @@
 package com.example.asuMd.service;
 
 import com.example.asuMd.model.User;
+import org.springframework.stereotype.Service;
 
-import java.util.List;
-
+@Service
 public interface UserService {
-    User insertUser(User user);
-    User updateUser(User user);
+    User registration(User user);
+    User modify(User user);
 }
